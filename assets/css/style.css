@@ -1,0 +1,370 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+
+.section01{
+background-color: #E1EEFF;
+}
+.nav-underline .nav-link.active
+{
+    color: #0360D9;
+}
+.nav-underline .nav-link
+{
+    color: #0D2B46;
+}
+.nav{
+    margin-top:15px;
+    margin-bottom:50px;
+    transition: all 0.3s ease-in-out;
+}
+.ph{
+    position: absolute;
+    right: 50px;
+    /* bottom: -33px; */
+    bottom: 0;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+/* .navbar .container-fluid{
+    justify-content: stretch;
+} */
+.dropdown{
+    padding-right:65px;
+}
+.fo{
+    background-color: #0360D9;
+    height: 100px;
+    margin-top:120px;
+    margin-bottom:120px;
+
+}
+
+.text-lines{
+    position: relative;
+    /* text-align: center; */
+}
+.text-lines::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 70%;
+    background-color: white;
+}
+.nv{
+    z-index: 2;
+}
+.cards{
+    margin-top:30px;
+    border-radius: 20px;
+    border:1px solid #021526;
+    padding: 20px;
+}
+.card img{
+    padding: 25px;
+    background-color: #E6F5FC;
+    border-radius:50px;
+}
+.card:hover{
+
+    background-color: #0360D9;
+    color: white;
+
+
+}
+.card .pho{
+    margin-left:130px;
+}
+
+.section03{
+    background-color: #E1EEFF;
+    padding: 100px 0;
+}
+
+.bot{
+    height:250px;
+    background-color: #0360D9;
+    padding-top:50px;
+}
+
+.select-arrow{
+    position: relative;
+    margin:10px 100px;
+}
+.arrow{
+    position: absolute;
+    right:2%;
+    bottom: 0;
+    top:15%;
+    width:60px;
+    height:60px;
+    background-color: #0360D9;
+}
+
+.arrow:hover{
+    opacity: 0.5;
+}
+footer{
+    background-color: #0360D9;
+    height:450px;
+}
+.under li{
+    background-color: #0360D9;
+}
+.under li:hover{
+    opacity: 0.3;
+}
+.drv a:hover{
+    opacity: 0.8;
+}
+.ending{
+    text-align: center;
+    margin-top: 50px;
+    border-top:1px solid white;
+}
+.txt{
+    margin-top:70px;
+}
+.line-2{
+    position: absolute;
+    left: 5px;
+    top: 60%;
+    width:38%;
+}
+.st{
+    color: white;
+    font-size:30px;
+}
+.lb{
+    margin-top: 10px;
+}
+@media(max-width:1200px){
+    .btns{
+    margin-top:5px;
+    font-size:13px;
+}
+.btns-2{
+    padding: 5px 15px;
+}
+    .nav{
+        margin-top:12px;
+        margin-bottom:0;
+        
+    }
+.nav-br2{
+    height:100px;
+}
+
+.dropdown{
+    padding-right:10px;
+}
+.nv{
+    width: 90%;
+    height: 90%;
+    }
+.searsh{
+    width:70%;
+    padding-bottom:5px;
+    transition: all 0.3s ease-in-out;
+}
+    .text{
+        width:50%;
+        
+    }
+.line-2{
+    width:36%;
+    transition: all 0.3s ease-in-out;
+    top:60%;
+}
+.lb{
+    margin-top:10px;
+}
+}
+
+
+@media (max-width:768px){
+    .text{
+        width:70%;
+        
+    }
+
+
+.circle{
+    bottom: 500px;
+}
+
+.nv{
+    width: 65%;
+    height: 90%;
+}
+.dropdown button,.dropdown ul{
+    font-size:9px;
+}
+.ph{
+    height: 40%;
+    bottom:-15px;
+    right:13px;
+}
+.lb{
+    font-size: 8px;
+}
+.ph{
+        height: 80%;
+        /* bottom: -20px; */
+        bottom: 0;
+        transition: all 0.3s ease-in-out;
+}
+.card .pho{
+    margin-left:80px;
+}
+.crd{
+    margin-top:20px;
+}
+footer{
+    height:560px;
+}
+.line-2{
+    width:40%;
+    top: 55%;
+    transition: all 0.3s ease-in-out;
+}
+.st{
+    font-size:25px;
+    transition: all 0.3s ease-in-out;
+}
+.text-lines p{
+    font-size: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.lb{
+    margin-top: 20px;
+}
+.searsh{
+    width:70%;
+    transition: all 0.3s ease-in-out;
+}
+}
+@media(min-width:768px) and (max-width:992px){
+    .nv{
+    width: 80%;
+    height: 90%;
+    }
+    .dropdown button,.dropdown ul{
+    font-size:11px;
+}
+.ph{
+    height: 90%;
+    /* bottom:-25px; */
+    bottom:0;
+    transition: all 0.3s ease-in-out;
+}
+.card .pho{
+    margin-left:0;
+    max-width:7%;
+}
+.card .pho-1{
+    max-width:7%;
+}
+footer{
+    height:570px;
+}
+.line-2{
+    width:43%;
+    top:57%;
+    transition: all 0.3s ease-in-out;
+}
+.text-lines p,.lb p{
+    font-size: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.lb{
+    margin-top:10px;
+}
+}
+@media(min-width:992px) and (max-width:1200px){
+.ph{
+    /* bottom:-27px; */
+    bottom:0;
+    right:10px;
+    transition: all 0.3s ease-in-out;
+}
+.card .pho{
+    margin-left:58px;
+}
+}
+@media(max-width:500px){
+    .nv{
+    width: 58%;
+    height: 90%;
+}
+.ph{
+    height: 65%;
+    /* bottom:-16px; */
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+.card .pho{
+    margin-left:30px;
+}
+.dropdown button,.dropdown ul{
+    font-size:5px;
+}
+.pho-2{
+    margin-bottom:15px;
+}
+.pho-4{
+    margin-top:15px;
+}
+.bot{
+   width:92%;
+   margin-left:20px;
+   margin-right: 5px;
+}
+footer{
+    height:1020px;
+}
+.line-2{
+    top: 46%;
+    width:40%;
+
+}
+
+.st{
+    font-size:20px;
+    transition: all 0.3s ease-in-out;
+}
+.text-lines p{
+    font-size: 7px;
+    transition: all 0.3s ease-in-out;
+}
+.lb{
+    margin-top: 20px;
+}
+.searsh{
+    width: 60%;
+    transition: all 0.3s ease-in-out;
+}
+}
+@media (min-width:500px) and (max-width:600px){
+.ph{
+    height: 60%;
+    /* bottom:-16px; */
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+.circle{
+    width:50%;
+}
+
+}
